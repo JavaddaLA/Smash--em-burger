@@ -178,6 +178,7 @@
       line-height: 0.9;
       letter-spacing: 2px;
       color: rgba(255,255,255,0.93);
+      text-shadow: 0 2px 12px rgba(0,0,0,0.7);
     }
     .beat h2 .accent-yellow { color: var(--yellow); }
     .beat h2 .accent-red    { color: var(--red); }
@@ -189,6 +190,14 @@
       text-transform: uppercase;
       max-width: 440px;
       line-height: 1.9;
+      text-shadow: 0 1px 8px rgba(0,0,0,0.9);
+    }
+    @media (max-width: 680px) {
+      .beat-sub {
+        font-size: 0.82rem;
+        color: rgba(255,255,255,0.62);
+        letter-spacing: 2px;
+      }
     }
     .beat-center { align-items: center; text-align: center; padding: 80px 14%; }
     .beat-center .beat-sub { max-width: 520px; }
